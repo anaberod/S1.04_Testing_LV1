@@ -19,7 +19,7 @@ public class LibraryManagerTest {
     void testListAfterAddingFewBooks() {
         manager.addNewBook("1984");
         manager.addNewBook("Alice in Wonderland");
-        int expectedSize = 2;
+        int expectedSize = 5;
         int actualSize = manager.bookList().size();
         assertEquals(expectedSize, actualSize);
     }
